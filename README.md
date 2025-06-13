@@ -32,7 +32,18 @@ ikuti setiap langkahnya yaaa!
 ### 🐍 Bagian 1. INSTALASI ANACONDA
  langkah pertama yang kita lakukan yaitu **⬇️Download Anaconda** disitus resmi
 
-ini merupakan link resminya guys 👉 : (https://www.anaconda.com/products/distribution )  
+- ini merupakan link resminya guys 👉 : (https://www.anaconda.com/products/distribution ) 
+- pilih versi sesuai OS Anda (Windows/macOS/Linux) - Klik tombol Download
+
+
+![image}
+
+   Do:
+	- Download dari situs resmi Anaconda
+	
+   Don't:
+	- Jangan download dari sumber tidak resmi
+	
 
 
  
