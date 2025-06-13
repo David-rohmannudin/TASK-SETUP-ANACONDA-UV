@@ -47,7 +47,18 @@ ikuti setiap langkahnya yaaa!
    	- Jangan download dari sumber tidak resmi
     
 ### 2. Jalankan Installer Anaconda
+Langkah-langkah pemasangan Anaconda ke sistem :
+- Buka file installer yang sudah didownload
+- Ikuti wizard instalasi
+- Pilih opsi "Add Anaconda to PATH" (opsional)
 
+![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/conda%20location%2C.png)
+
+
+Do's: 	- Jika tidak yakin, gunakan pengaturan default 
+	- Jika ingin bisa diakses dari terminal manapun centang opsi PATH 
+Don'ts: - Jangan ubah direktori instalasi ke folder sistem 
+	- Jangan batalkan proses instalasi di tengah jalan
 	
 
 
