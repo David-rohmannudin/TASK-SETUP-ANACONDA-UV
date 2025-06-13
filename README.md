@@ -33,10 +33,11 @@ ikuti setiap langkahnya yaaa!
  langkah pertama yang kita lakukan yaitu **⬇️Download Anaconda** disitus resmi
 
 - ini merupakan link resminya guys 👉 : (https://www.anaconda.com/products/distribution ) 
-- pilih versi sesuai OS Anda (Windows/macOS/Linux) - Klik tombol Download
+- pilih versi sesuai OS Anda (Windows/macOS/Linux)
+- Klik tombol Download
 
 
-![image}
+![image} (https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/download%20miniconda%20(39).png)
 
    Do:
 	- Download dari situs resmi Anaconda
