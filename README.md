@@ -30,6 +30,7 @@ ikuti setiap langkahnya yaaa!
 ## Langkah-langkah Setup Anaconda dan UV
 
 ### 🐍 Bagian 1. INSTALASI ANACONDA
+### 1. Download Installer Anaconda
  langkah pertama yang kita lakukan yaitu **⬇️Download Anaconda** disitus resmi
 
 - ini merupakan link resminya guys 👉 : (https://www.anaconda.com/products/distribution ) 
@@ -44,6 +45,9 @@ ikuti setiap langkahnya yaaa!
 	
    Don't:
    	- Jangan download dari sumber tidak resmi
+    
+### 2. Jalankan Installer Anaconda
+
 	
 
 
