@@ -36,8 +36,8 @@ ikuti setiap langkahnya yaaa!
 - pilih versi sesuai OS Anda (Windows/macOS/Linux)
 - Klik tombol Download
 
+![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/download%20miniconda%20(39).png)
 
-![image}()
 
    Do:
    	- Download dari situs resmi Anaconda
