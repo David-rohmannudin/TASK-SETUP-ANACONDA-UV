@@ -37,7 +37,7 @@ ikuti setiap langkahnya yaaa!
 - Klik tombol Download
 
 
-![image} (https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/download%20miniconda%20(39).png)
+![image}(https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/download%20miniconda%20(39).png)
 
    Do:
 	- Download dari situs resmi Anaconda
