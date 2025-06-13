@@ -29,13 +29,13 @@ ikuti setiap langkahnya yaaa!
 
 ## Langkah-langkah Setup Anaconda dan UV
 
-### 🐍 Bagian 1. INSTALASI ANACONDA
-### 1. Download Installer Anaconda
- langkah pertama yang kita lakukan yaitu **⬇️Download Anaconda** disitus resmi
+## 🐍 Bagian 1. INSTALASI ANACONDA
+## 1. Download Installer Anaconda
+      langkah pertama yang kita lakukan yaitu **⬇️Download Anaconda** disitus resmi
 
-- ini merupakan link resminya guys 👉 : (https://www.anaconda.com/products/distribution ) 
-- pilih versi sesuai OS Anda (Windows/macOS/Linux)
-- Klik tombol Download
+      - ini merupakan link resminya guys 👉 : (https://www.anaconda.com/products/distribution ) 
+      - pilih versi sesuai OS Anda (Windows/macOS/Linux)
+      - Klik tombol Download
 
 ![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/download%20miniconda%20(39).png)
 
@@ -48,7 +48,7 @@ ikuti setiap langkahnya yaaa!
 
 
     
-### 2. Jalankan Installer Anaconda
+## 2. Jalankan Installer Anaconda
 Langkah-langkah pemasangan Anaconda ke sistem :
 - Buka file installer yang sudah didownload
 - Ikuti wizard instalasi
@@ -69,15 +69,16 @@ Don'ts:
 
 
 ### 3. Verivikasi Anaconda
-Lakukan verivikasi anaconda untuk memastikan bahwa anaconda memang sudah benar-benar terpasang dan dapat dipanggil dari terminal,
-memverivikasi anaconda bertujuan Agar kita tidak menemui masalah di langkah selanjutnya saat menggunakan conda atau Python dari Anaconda.
+       Lakukan verivikasi anaconda untuk memastikan bahwa anaconda memang sudah benar-benar terpasang dan dapat dipanggil dari 	         terminal,
+       memverivikasi anaconda bertujuan Agar kita tidak menemui masalah di langkah selanjutnya saat menggunakan conda atau 	         Python dari Anaconda.
 
 
-Langkah-langkah:
-1. Buka terminal atau command prompt.
-2. Ketik perintah:
-   conda --version
-3. Jika muncul versi conda, instalasi sudah sukses.
+	Langkah-langkah:
+	1. Buka terminal atau command prompt.
+	2. Ketik perintah:
+	   conda --version
+	3. Jika muncul versi conda, instalasi sudah sukses.
+ 
 
    ![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/conda%20version.png)
 
