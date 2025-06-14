@@ -234,9 +234,26 @@ Langkah-langkah:
 
 
 
-# 6. Perbandinga Conda VS UV
+
+# 6. Perbandingan Conda VS UV
+
+**Apa?**
+Membandingkan manajemen environment Conda dengan framework UV (asumsi UV adalah sistem manajemen environment atau framework spesifik).
+
+**Kenapa?**
+Agar memudahkan pemilihan tools sesuai kebutuhan.
+
+	Detail:
+	- Conda: manajemen environment dan paket secara umum, lintas proyek.
+	- UV: environment/framework yang lebih spesifik untuk proyek tertentu, mungkin terkait AI.
 
 
+	Do's:
+	- Gunakan Conda untuk manajemen environment yang luas.
+	- Gunakan UV jika spesifik proyek atau framework tersebut.
+
+	Don'ts:
+	- Jangan mencampur konfigurasi environment yang berbeda tanpa sinkronisasi.
 
 
 
