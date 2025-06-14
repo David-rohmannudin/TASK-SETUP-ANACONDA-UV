@@ -165,7 +165,7 @@ Don'ts:
 - Jangan membuat terlalu banyak environment yang tidak perlu
 
 
-# Menginisialisasi Proyek UV
+# 2. Menginisialisasi Proyek UV
 
    **Apa?**
 Menginisialisasi Proyek UV adalah proses mempersiapkan struktur direktori dan file konfigurasi dasar untuk proyek yang akan menggunakan UV environment. Ini termasuk membuat file requirements, struktur folder, dan konfigurasi dasar proyek.
@@ -195,7 +195,7 @@ Don'ts:
 - Jangan mengubah struktur folder setelah proyek berjalan
 
 
-# Instal Paket yang Dibutuhkan 
+# 3. Instal Paket yang Dibutuhkan 
 
 **Apa?**
 Memasang library yang diperlukan untuk proyek UV.
@@ -217,7 +217,7 @@ Don'ts:
 - Jangan install paket tanpa memeriksa dependensinya
 - Jangan campur UV dan pip.
 
-# 5. Nonaktifkan Lingkungan UV
+# 4. Nonaktifkan Lingkungan UV
 
 **Apa?**
 Nonaktifkan environment uv_env apabila sudah selesai menggunakan.
