@@ -115,7 +115,25 @@ Don'ts:
 - Hati-hati saat edit variabel lingkungan.
 
 
+
 ## 5. Membuat Lingkungan Conda Baru
+Membuat environment Conda baru adalah membuat ruang kerja terpisah untuk project yang berbeda, yang bertujuan Untuk menghindari bentrok antar versi Python atau paket yang digunakan oleh berbagai proyek.
+
+      jalan kan perintah Berikut pada cmd : 👉  conda create -n nama_env python=3.9
+
+
+ ![Image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/conda%20baru%20.png)
+
+ 
+ 
+       Do's:
+       - Gunakan nama environment yang deskriptif dan mudah diingat.
+       - Jangan buat environment tanpa kebutuhan.
+
+       Don'ts:
+       - Jangan install semua paket di environment base.
+
+
 
 
 
