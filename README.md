@@ -140,11 +140,11 @@ Membuat environment Conda baru adalah membuat ruang kerja terpisah untuk project
 
 1. Buat Environment Baru
 
-**Apa**
-Membuat environment terisolasi untuk proyek UV.
+	**Apa**
+	Membuat environment terisolasi untuk proyek UV.
 
-**Kenapa**
-Agar dependensi proyek tidak bentrok dengan proyek lain.
+	**Kenapa**
+	Agar dependensi proyek tidak bentrok dengan proyek lain.
 
 	Langkah-langkah:
 	1.	Pastikan lingkungan Conda tidak aktif (jalankan conda deactivate jika perlu).
@@ -157,12 +157,13 @@ Agar dependensi proyek tidak bentrok dengan proyek lain.
 
 
 
-Do's:
-- Beri nama environment yang deskriptif
-- Gunakan versi Python yang kompatibel
-Don'ts:
-- Jangan gunakan environment base untuk proyek
-- Jangan membuat terlalu banyak environment yang tidak perlu
+	Do's:
+	- Beri nama environment yang deskriptif
+	- Gunakan versi Python yang kompatibel
+
+	Don'ts:
+	- Jangan gunakan environment base untuk proyek
+	- Jangan membuat terlalu banyak environment yang tidak perlu
 
 
 # 2. Menginisialisasi Proyek UV
@@ -182,17 +183,17 @@ Langkah-langkah:
 ![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/cmd%20ghost.png)
 
 
-Do's:
-- Gunakan struktur folder yang konsisten
-- Dokumentasikan semua dependensi di requirements.txt
-- Buat README.md yang jelas
-- Gunakan virtual environment untuk setiap proyek	
+	Do's:
+	- Gunakan struktur folder yang konsisten
+	- Dokumentasikan semua dependensi di requirements.txt
+	- Buat README.md yang jelas
+	- Gunakan virtual environment untuk setiap proyek	
 
-Don'ts:
-- Jangan mencampur file proyek dengan file personal
-- Jangan lupa menambahkan environment ke .gitignore
-- Jangan menyimpan data sensitif di direktori proyek
-- Jangan mengubah struktur folder setelah proyek berjalan
+	Don'ts:
+	- Jangan mencampur file proyek dengan file personal
+	- Jangan lupa menambahkan environment ke .gitignore
+	- Jangan menyimpan data sensitif di direktori proyek
+	- Jangan mengubah struktur folder setelah proyek berjalan
 
 
 # 3. Instal Paket yang Dibutuhkan 
@@ -203,8 +204,8 @@ Memasang library yang diperlukan untuk proyek UV.
 **Kenapa?** 
 Untuk mendapatkan fungsi-fungsi yang dibutuhkan dalam pengembangan.
 
-Langkah-langkah:
-1.	Ketik: uv add pandas
+	Langkah-langkah:
+	Ketik: uv add pandas
 
 ![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/install%20paket%20.png)
 
