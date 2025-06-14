@@ -14,7 +14,9 @@ ikuti setiap langkahnya yaaa!
 
 -----
 
+
 ## Mengenal dan Instalasi Anaconda 🐍
+
 
 ## Apa itu Anaconda dan Conda ?
 
@@ -48,7 +50,7 @@ langkah pertama yang kita lakukan yaitu **⬇️Download Anaconda** disitus resm
 
 
     
-## 2. Jalankan Installer Anaconda
+## 2. Jalankan Installer Anaconda 📌
 Langkah-langkah pemasangan Anaconda ke sistem :
 - Buka file installer yang sudah didownload
 - Ikuti wizard instalasi
@@ -58,17 +60,17 @@ Langkah-langkah pemasangan Anaconda ke sistem :
 ![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/conda%20location%2C.png)
 
 
-Do's: 	
+Do's ✅: 	
 
 - Jika tidak yakin, gunakan pengaturan default 
 - Jika ingin bisa diakses dari terminal manapun centang opsi PATH 
 
-Don'ts:
+Don'ts ❌:
 - Jangan ubah direktori instalasi ke folder sistem 
 - Jangan batalkan proses instalasi di tengah jalan
 
 
-### 3. Verivikasi Anaconda
+## 3. Verivikasi Anaconda ♾️
 Lakukan verivikasi anaconda untuk memastikan bahwa anaconda memang sudah benar-benar terpasang dan dapat dipanggil dari terminal,
 memverivikasi anaconda bertujuan Agar kita tidak menemui masalah di langkah selanjutnya saat menggunakan conda atau Python dari Anaconda.
 
@@ -81,6 +83,40 @@ memverivikasi anaconda bertujuan Agar kita tidak menemui masalah di langkah sela
  
 
    ![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/conda%20version.png)
+
+
+ 	Do's:
+		- Gunakan terminal baru setelah instalasi untuk memastikan variabel PATH terbaru terbaca   - Pastikan perintah dijalankan tanpa error.
+	Don'ts:
+		- Jangan abaikan error atau tidak muncul versi, cek pemasangan kembali.
+
+
+### 4. Konfigurasi Variabel Lingkungan PATH Conda dan Anaconda
+
+	Langkah-langkah:
+	1. Pada Windows, tambahkan direktori Anaconda dan Scripts ke PATH Environment Variable.
+	2. Pada macOS/Linux, biasanya otomatis terpasang. Jika tidak, edit .bashrc atau .zshrc untuk menambah PATH
+	3. Tekan Windows + R, ketik sysdm.cpl, tekan Enter.
+	4. Pergi ke tab "Advanced", klik "Environment Variables".
+	5. Pilih "Path" di "System variables", klik "Edit".
+	6. Tambahkan (ganti NAMA_ANDA):
+	7. Klik Ok
+
+
+![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/edit%20environment%20.png)
+ 
+
+Do's:
+- Pastikan sudah menutup dan membuka terminal baru setelah konfigurasi.
+- Restart komputer jika perlu.
+
+Don'ts:
+- Jangan menghapus PATH penting lainnya.
+- Hati-hati saat edit variabel lingkungan.
+
+
+## 5. Membuat Lingkungan Conda Baru
+
 
 
 	
