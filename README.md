@@ -1,5 +1,5 @@
 # TASK-SETUP-ANACONDA-UV
-**-----**
+-----
 
 #### **Nama** : David Rohmannudin
 
@@ -134,9 +134,109 @@ Membuat environment Conda baru adalah membuat ruang kerja terpisah untuk project
        - Jangan install semua paket di environment base.
 
 
-**-----**
+-----
 
 # Bagian 2:Membuat UV
+
+1. Buat Environment Baru
+
+**Apa**
+Membuat environment terisolasi untuk proyek UV.
+
+**Kenapa**
+Agar dependensi proyek tidak bentrok dengan proyek lain.
+
+	Langkah-langkah:
+	1.	Pastikan lingkungan Conda tidak aktif (jalankan conda deactivate jika perlu).
+	2.	Ketik: pip install uv
+	3.	Output seperti Successfully installed uv-0.7.12 menunjukkan keberhasilan.
+	4.	Catatan tentang folder ghost_intellixuv: Folder ghost_intellixuv akan dibuat di langkah berikutnya  menggunakan uv init. Perintah ini otomatis membuat folder 		jika belum ada, karena UV dirancang untuk menginisialisasi direktori proyek baru secara langsung. Anda tidak perlu membuat folder ini secara manual sebelum 			menjalankan uv init. Untuk memverifikasi folder setelah inisialisasi, ketik dir di CMD untuk melihat daftar direktori.
+
+
+ ! [image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/CMD%20PIP%20UV.png)
+
+
+
+Do's:
+- Beri nama environment yang deskriptif
+- Gunakan versi Python yang kompatibel
+Don'ts:
+- Jangan gunakan environment base untuk proyek
+- Jangan membuat terlalu banyak environment yang tidak perlu
+
+
+# Menginisialisasi Proyek UV
+
+   **Apa?**
+Menginisialisasi Proyek UV adalah proses mempersiapkan struktur direktori dan file konfigurasi dasar untuk proyek yang akan menggunakan UV environment. Ini termasuk membuat file requirements, struktur folder, dan konfigurasi dasar proyek.
+
+**Kenapa?**
+Inisialisasi proyek yang benar membantu menjaga konsistensi struktur proyek, memudahkan kolaborasi tim, dan memastikan semua dependensi terkelola dengan baik. Ini juga mempermudah deployment dan reproduksi environment di mesin lain.
+
+Langkah-langkah:
+1. Pastikan environment UV sudah aktif
+2. Ketik: uv init ghost_intellixuv
+           Cd ghost intellixuv
+3. Output menunjukkan proyek diinisialisasi di C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv.
+
+![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/cmd%20ghost.png)
+
+
+Do's:
+- Gunakan struktur folder yang konsisten
+- Dokumentasikan semua dependensi di requirements.txt
+- Buat README.md yang jelas
+- Gunakan virtual environment untuk setiap proyek	
+
+Don'ts:
+- Jangan mencampur file proyek dengan file personal
+- Jangan lupa menambahkan environment ke .gitignore
+- Jangan menyimpan data sensitif di direktori proyek
+- Jangan mengubah struktur folder setelah proyek berjalan
+
+
+# Instal Paket yang Dibutuhkan 
+
+**Apa?**
+Memasang library yang diperlukan untuk proyek UV.
+
+**Kenapa?** 
+Untuk mendapatkan fungsi-fungsi yang dibutuhkan dalam pengembangan.
+
+Langkah-langkah:
+1.	Ketik: uv add pandas
+
+![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/install%20paket%20.png)
+
+
+Do's:
+- Install hanya paket yang diperlukan
+- Periksa versi paket yang kompatibel
+Don'ts:
+- Jangan install paket di environment base
+- Jangan install paket tanpa memeriksa dependensinya
+- Jangan campur UV dan pip.
+
+# 5. Nonaktifkan Lingkungan UV
+
+**Apa?**
+Nonaktifkan environment uv_env apabila sudah selesai menggunakan.
+
+**Kenapa?**
+Agar shell kembali ke environment base atau default.
+
+Langkah-langkah:
+1.	Ketik: .venv\Scripts\deactivate
+2.	Prompt kembali ke C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
+
+![image](https://github.com/David-rohmannudin/TASK-SETUP-ANACONDA-UV/blob/main/Task-Anaconda/nonafktifkan%20uv.png)
+
+
+
+# 6. Perbandinga Conda VS UV
+
+
+
 
 
 
