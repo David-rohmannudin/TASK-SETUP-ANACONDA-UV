@@ -1,5 +1,5 @@
 # TASK-SETUP-ANACONDA-UV
------
+**-----**
 
 #### **Nama** : David Rohmannudin
 
@@ -132,6 +132,11 @@ Membuat environment Conda baru adalah membuat ruang kerja terpisah untuk project
 
        Don'ts:
        - Jangan install semua paket di environment base.
+
+
+**-----**
+
+# Bagian 2:Membuat UV
 
 
 
